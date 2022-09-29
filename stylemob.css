@@ -1,0 +1,174 @@
+@media screen and (max-width: 1300px){
+    .presentacion {
+        top: 25%;
+        left: 25%;
+        max-width: 100%;
+        font-size: 1em;
+    }
+}
+
+@media screen and (max-width:900px){
+    .presentacion {
+        top: 0%;
+        left: 0%;
+        text-align: center;
+        max-width: 100%;
+        font-size: 1em;
+    }
+
+    .conf > IMG {
+        width: 40%; /*Ajusta el logo de Codo a codo*/
+    }
+
+    .nav-container {
+        height: 60px; /*Establece un alto para el nav*/
+        transition: height 1s;
+    }
+
+    .main-menu {
+        flex-direction: column;
+        width: 100%; /*Hace que cada li ocupe el 100% y este centrado*/
+        align-content: end; /*Coloca la lista del lado derecho*/
+        transition: transform 1s;
+    } /*ul que contiene el nav*/
+
+    .nav-container--show {
+        height: 280px;
+    }
+
+    .toggle-menu {
+        display: flex;
+        position: absolute; /*Coloca las barras por encima del nav*/
+        top: 0; /*Deja las barras arriba de todo*/
+        justify-content: end; /*Coloca las barras a la derecha*/
+        color: white;
+        font-size: 48px;
+        padding: 1%;
+    } /*Icono de Barras*/
+    
+    .card {
+        min-width: 200px;
+        max-width: 250px;
+    }
+    
+    .ciudad {
+        height: 100%;
+    }
+
+    .ciudad-desc {
+        border: none;
+    }
+    
+    .lugar {
+        align-items: center;
+        background-color: #343a40;
+    }
+}
+
+@media screen and (max-width:650px) {
+    .presentacion {
+        top: 0%;
+        left: 0%;
+        font-size: 0.8em;
+        text-align: center;
+        max-width: 100%;
+    }
+
+    .conf > IMG {
+        display: none;
+    }
+
+    .nav-container {
+        height: 60px; /*Establece un alto para el nav*/
+        transition: height 1s;
+    }
+
+    .main-menu {
+        flex-direction: column;
+        width: 100%; /*Hace que cada li ocupe el 100% y este centrado*/
+        align-content: end; /*Coloca la lista del lado derecho*/
+        transition: transform 1s;
+    } /*ul que contiene el nav*/
+
+    .nav-container--show {
+        height: 280px;
+    }
+
+    .toggle-menu {
+        display: flex;
+        position: absolute; /*Coloca las barras por encima del nav*/
+        top: 0; /*Deja las barras arriba de todo*/
+        justify-content: end; /*Coloca las barras a la derecha*/
+        color: white;
+        font-size: 48px;
+        padding: 1%;
+    } /*Icono de Barras*/
+
+    .card {
+        min-width: 200px;
+    }
+
+    .ciudad {
+        display: none;
+    }
+
+    .ciudad-desc {
+        width: 100%; 
+        border: none;
+    }
+
+}
+
+@media screen and (max-width:500px) {
+    .presentacion {
+        font-size: 0.7em;
+        min-width: 380px;
+    }
+
+    .slide {
+        min-width: 380px;
+    }
+
+    .btn-1 {
+        display: none;
+    }
+
+    .conf > IMG {
+        display: none;
+    }
+
+    .nav-container {
+        height: 60px; /*Establece un alto para el nav*/
+        transition: height 1s;
+        min-width: 380px;
+    }
+
+    .main-menu {
+        flex-direction: column;
+        width: 100%; /*Hace que cada li ocupe el 100% y este centrado*/
+        align-content: end; /*Coloca la lista del lado derecho*/
+        transition: transform 1s;
+    } /*ul que contiene el nav*/
+
+    .nav-container--show {
+        height: 280px;
+    }
+
+    .toggle-menu {
+        display: flex;
+        position: absolute; /*Coloca las barras por encima del nav*/
+        top: 0; /*Deja las barras arriba de todo*/
+        justify-content: end; /*Coloca las barras a la derecha*/
+        color: white;
+        font-size: 48px;
+        padding: 1%;
+    } /*Icono de Barras*/
+
+    .card-cont {
+        flex-direction: column;
+    }
+
+    .ciudad-desc {
+        font-size: 0.8rem;
+    }
+}
