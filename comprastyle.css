@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .conf > IMG { /*Imagen logo codoacodo*/
     width: 25%;
 }
@@ -9,3 +10,16 @@
 .bloque {
     max-width: 300px;
 }
+=======
+.conf > IMG { /*Imagen logo codoacodo*/
+    width: 25%;
+}
+
+.toggle-menu {
+    display: none;
+}
+
+.bloque {
+    max-width: 300px;
+}
+>>>>>>> fc462fa50ef63d87744e18eef7d36739646e37a5
