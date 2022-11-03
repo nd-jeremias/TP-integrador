@@ -1,0 +1,11 @@
+.conf > IMG { /*Imagen logo codoacodo*/
+    width: 25%;
+}
+
+.toggle-menu {
+    display: none;
+}
+
+.bloque {
+    max-width: 300px;
+}

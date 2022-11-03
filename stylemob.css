@@ -53,10 +53,12 @@
     
     .ciudad {
         height: 100%;
+        width: 100%;
     }
 
     .ciudad-desc {
         border: none;
+        width: 100%;
     }
     
     .lugar {
